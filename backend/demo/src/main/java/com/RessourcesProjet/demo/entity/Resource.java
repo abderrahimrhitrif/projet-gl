@@ -19,6 +19,7 @@ public abstract class Resource {
     private Long id;
     @Column(unique = true)
     private String inventoryNumber;
+    private String Name;
     private String brand;
     private LocalDate acquisitionDate;
     private ResourceStatus status;
